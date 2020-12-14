@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
+markdown: kramdown
 title: Joana Trashlieva
 description: Software Developer
 date: {{ page.date | date: '%B %d, %Y' }}\
