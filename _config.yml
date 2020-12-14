@@ -1,7 +1,7 @@
 baseurl: ""
 url: "https://ian-goode.github.io"
 
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal
 
 title: Joana Trashlieva
 description: Software Developer
