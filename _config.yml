@@ -1,3 +1,11 @@
 theme: jekyll-theme-minimal
 title: Joana Trashlieva
 description: Software Developer
+date: {{ page.date | date: '%B %d, %Y' }}\
+avatar: "/assets/headshot.jpg"
+round-avatar: true
+social-network-links:
+  email: "j.trashlieva@gmail.com"
+  github: JoanaTrashlieva
+  twitter: @trashlieva
+  linkedin: joana.trashlieva
