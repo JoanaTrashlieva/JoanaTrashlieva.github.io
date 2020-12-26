@@ -9,9 +9,9 @@ Some of my work also includes web development with Magento 2 and PHP 7.
 In my free time I am most often seen playing basketball.
 
 
-![Java](https://joanatrashlieva.github.io/assets/icons/java.png)
-![PHP](https://joanatrashlieva.github.io/assets/icons/php.png)
-![Magento](https://joanatrashlieva.github.io/assets/icons/magento.png)
+![Java](https://joanatrashlieva.github.io/assets/icons/java.png =250x)
+![PHP](https://joanatrashlieva.github.io/assets/icons/php.png =250x)
+![Magento](https://joanatrashlieva.github.io/assets/icons/magento.png =250x)
 
 * * *
 
