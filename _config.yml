@@ -16,10 +16,7 @@
 title: Joana Trashlieva
 logo: assets/headshot.jpg
 email: j.trashlieva@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Software Developer
-
-  does a new line work like that: just a test
+description:  Software Developer <br /> does a new line work like that just a test
 google_analytics: G-TRWGT86H9E
 show_downloads: false
 baseurl: "" # the subpath of your site, e.g. /blog
