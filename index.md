@@ -1,7 +1,6 @@
 ---
 title-heading: false
 layout: default
-@import "{{ site.theme }}";
 ---
 
 ## Who am I
