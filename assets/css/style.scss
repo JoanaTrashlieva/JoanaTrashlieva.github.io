@@ -10,6 +10,9 @@ body{
     header {
         h1{
             text-align: center;
+        }
+
+        h1 a{
             color: #ff0000;
         }
 
@@ -27,10 +30,14 @@ body{
         h1 {
             color: #ff0000;
         }
+
+        .view{
+            display: none;
+        }
     }
 
     footer {
-        p, .view{
+        .view{
             display: none;
         }
     }
