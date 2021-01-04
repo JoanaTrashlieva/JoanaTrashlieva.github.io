@@ -1,5 +1,7 @@
 ---
+title-heading: false
 layout: default
+@import "{{ site.theme }}";
 ---
 
 ## Who am I
@@ -19,7 +21,7 @@ In my free time I am most often seen playing basketball.
 
 ### Client work
 
-[Ashley Perrin](https://www.ashleyperrin.co.uk)
+<p style='text-align: center'>[Ashley Perrin](https://www.ashleyperrin.co.uk)
 ![Ashley Perrin](https://joanatrashlieva.github.io/assets/work/ashleyperrin.co.uk.png)
 
 [Automated Process Engineering Ltd](https://www.ape-ltd.co.uk)

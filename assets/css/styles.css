@@ -1,0 +1,29 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header h1{
+    text-align: center;
+}
+
+header img{
+    border-radius: 50%;
+}
+
+header p{
+    text-align: center;
+    margin: 10px;
+}
+
+header .view{
+    display: none;
+}
+
+.main-content h1 {
+    color: #ff0000;
+}
+
+footer p{
+    display: none;
+}
