@@ -23,11 +23,6 @@ show_downloads: false
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.joanatrashlieva.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-instagram_username: joana.trashlieva
-linkedin_username: joana-trashlieva
-twitter_username: Trashlieva
-github_username:  JoanaTrashlieva
-
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-minimal

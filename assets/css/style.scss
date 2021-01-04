@@ -2,31 +2,36 @@
 ---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 
-header {
-    h1{
-        text-align: center;
-        color: red;
-    }
-
-    img{
-        border-radius: 50%;
-    }
+body{
+    font: Dosis, sans-serif;
     
-    p{
-        text-align: center;
-        margin: 10px;
-    }
-}
+    header {
+        h1{
+            text-align: center;
+            color: red;
+        }
 
-.main-content {
-    h1 {
-        color: #ff0000;
+        img{
+            border-radius: 50%;
+        }
+        
+        p{
+            text-align: center;
+            margin: 10px;
+        }
     }
-}
 
-footer {
-    p{
-        display: none;
+    .main-content {
+        h1 {
+            color: #ff0000;
+        }
+    }
+
+    footer {
+        p{
+            display: none;
+        }
     }
 }
