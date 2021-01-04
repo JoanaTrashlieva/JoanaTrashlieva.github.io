@@ -11,18 +11,18 @@ In my free time I am most often seen playing basketball. 🏀
 
 * * *
 
-## Some of my work
+## Projects
 
-### Client work
+### Clients
 
-<p style='text-align: center'>[Ashley Perrin](https://www.ashleyperrin.co.uk)
+[Ashley Perrin](https://www.ashleyperrin.co.uk)
 ![Ashley Perrin](https://joanatrashlieva.github.io/assets/work/ashleyperrin.co.uk.png)
 
 [Automated Process Engineering Ltd](https://www.ape-ltd.co.uk)
 ![APE-Ltd](https://joanatrashlieva.github.io/assets/work/ape-ltd.co.uk.png)
 
 
-### Personal projects
+### Personal
 > To be updated
 
 * * *

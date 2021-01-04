@@ -13,7 +13,7 @@ body{
         }
 
         h1 a{
-            color: #ff0000;
+            color: #ef4037;
         }
 
         img{
@@ -26,18 +26,16 @@ body{
         }
     }
 
-    .main-content {
-        h1 {
-            color: #ff0000;
-        }
+    h1, h3 {
+        color: #ef4037;
     }
-
+    
     .view{
         display: none;
     }
 
     footer {
-        .view{
+        p { 
             display: none;
         }
     }
