@@ -1,0 +1,36 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+    h1{
+        text-align: center;
+    }
+
+    img{
+        border-radius: 50%;
+    }
+    
+    p{
+        text-align: center;
+        margin: 10px;
+    }
+
+    .view{
+        display: none;
+    }
+}
+
+.main-content {
+    h1 {
+        color: #ff0000;
+    }
+}
+
+footer {
+    
+    p{
+        display: none;
+    }
+}
