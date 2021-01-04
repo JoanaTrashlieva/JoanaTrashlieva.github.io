@@ -6,6 +6,7 @@
 header {
     h1{
         text-align: center;
+        color: red;
     }
 
     img{
@@ -16,10 +17,6 @@ header {
         text-align: center;
         margin: 10px;
     }
-
-    .view{
-        display: none;
-    }
 }
 
 .main-content {
@@ -29,7 +26,6 @@ header {
 }
 
 footer {
-    
     p{
         display: none;
     }
