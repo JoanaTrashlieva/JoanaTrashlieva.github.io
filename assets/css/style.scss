@@ -31,8 +31,20 @@ body{
         }
     }
 
-    h1, h3 {
+    h1 {
         color: #ef4037;
+    }
+
+    td{
+        text-align: center;
+
+        a{
+            color: #747474;
+        }
+
+        a:hover{
+            color: #ef4037;
+        }
     }
     
     .view{

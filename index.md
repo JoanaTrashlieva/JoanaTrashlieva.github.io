@@ -15,8 +15,7 @@ In my free time I am most often seen playing basketball. 🏀
 
 ### Clients
 
-| [Ashley Perrin](https://www.ashleyperrin.co.uk)      | [Automated Process Engineering Ltd](https://www.ape-ltd.co.uk)       |
-| ![Ashley Perrin](https://joanatrashlieva.github.io/assets/work/ashleyperrin.co.uk.png)   | ![APE-Ltd](https://joanatrashlieva.github.io/assets/work/ape-ltd.co.uk.png)        |
+| [![Ashley Perrin](https://joanatrashlieva.github.io/assets/work/ashleyperrin.co.uk.png)](https://www.ashleyperrin.co.uk)  | [![APE-Ltd](https://joanatrashlieva.github.io/assets/work/ape-ltd.co.uk.png)](https://www.ape-ltd.co.uk)         |
 
 ### Personal
 > To be updated
