@@ -26,4 +26,4 @@ In my free time I enjoying playing basketball 🏀and building robots! 🦾
 
 #### Personal
 
-| [![Ardi](https://joanatrashlieva.github.io/assets/work/arduino-car.jpg)](https://github.com/JoanaTrashlieva/robot-car)|
+| [![Ardi](https://joanatrashlieva.github.io/assets/work/arduino-car.jpg)](https://github.com/JoanaTrashlieva/robot-car)| |
