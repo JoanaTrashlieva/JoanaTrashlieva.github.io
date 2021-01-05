@@ -16,7 +16,7 @@
 title: Joana Trashlieva
 logo: assets/headshot.jpg
 email: j.trashlieva@gmail.com
-description:  Software Developer <br /> <div class='social'>📍 Reading, UK </div> </br> <div class='social'> ✉️ j.trashlieva@gmail.com </div>  
+description:  Software Developer <br /> <div class='social'>📍 Reading, UK </div> <div class='social'> ✉️ j.trashlieva@gmail.com </div>  
 google_analytics: G-TRWGT86H9E
 show_downloads: false
 baseurl: "" # the subpath of your site, e.g. /blog
