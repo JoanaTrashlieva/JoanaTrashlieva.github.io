@@ -25,6 +25,16 @@ body{
             margin: 20px;
             font-weight: 600;
         }
+
+        .social{
+            display: flex;
+            justify-content: center;
+
+            img{
+                width: 50%;
+                border-radius: 0;
+            }
+        }
     }
 
     h1{
