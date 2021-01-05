@@ -35,8 +35,16 @@ body{
         color: #ef4037;
     }
 
+    blockquote{
+        border-left: 1px solid #ef4037;
+    }
+
     td{
         text-align: center;
+        border-bottom: none;
+        padding: 0;
+        width: 51%;
+        padding: 1%;
 
         a{
             color: #747474;
@@ -45,6 +53,10 @@ body{
         a:hover{
             color: #ef4037;
         }
+    }
+
+    td:hover{
+        width: 55%;
     }
     
     .view{
