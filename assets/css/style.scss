@@ -31,8 +31,12 @@ body{
         }
     }
 
-    h1 {
+    h1{
         color: #ef4037;
+    }
+
+    h4{
+        color: #757575;
     }
 
     blockquote{
@@ -44,23 +48,27 @@ body{
         border-bottom: none;
         padding: 0;
         width: 51%;
-        padding: 1%;
+        padding: 2%;
+        transition: transform .5s; 
 
-        a{
-            color: #747474;
-        }
-
-        a:hover{
-            color: #ef4037;
+        img{
+            border-radius: 10px;
         }
     }
 
     td:hover{
-        width: 55%;
+        transform: scale(1.1);
     }
     
     .view{
         display: none;
+    }
+
+    .social{
+        img{
+            width: 5%;
+            padding-right: 10px;
+        }
     }
 
     footer {
