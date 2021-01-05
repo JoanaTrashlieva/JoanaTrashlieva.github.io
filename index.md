@@ -14,7 +14,7 @@ Following this as a guiding principle, after high-school I moved to the UK to
 study Computer Science in university. I will soon be relocating to the Netherlands
 to pursue a masters degree. 
 
-In my free time I like playing basketball 🏀  and building robots! 🦾 
+In my free time I like playing basketball 🏀  and building robots! 🤖
 
 * * *
 
