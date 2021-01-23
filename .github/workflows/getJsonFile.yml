@@ -13,4 +13,3 @@ jobs:
           with:
             url: "https://cache1.phantombooster.com/plBOJLwVHsA/0dssBQ5XSfnRTJ53UMdTUw/results.json"
             target: assets/
-          run: echo "All ran successfully"
