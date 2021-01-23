@@ -1,19 +1,19 @@
 name: Get JSON file from scrapper
 
-on:
-  schedule:
-   - cron:  '*/5 * * * *'
-      #00 10 * * *
-      
 # on:
-#   workflow_dispatch:
-#     inputs:
-#       name:
-#         description: 'Contributor'
-#         # Default value if no value is explicitly provided
-#         default: 'name'
-#         # Input has to be provided for the workflow to run
-#         required: true
+#   schedule:
+#    - cron:  '*/5 * * * *'
+#       #00 10 * * *
+      
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Contributor'
+        # Default value if no value is explicitly provided
+        default: 'name'
+        # Input has to be provided for the workflow to run
+        required: true
 
 jobs:
   getJson:
@@ -21,7 +21,17 @@ jobs:
     steps:
         - uses: suisei-cn/actions-download-file@v1
           id: jsonContent
-          name: Download the file
+        - name: Download the file
           with:
             url: "https://cache1.phantombooster.com/plBOJLwVHsA/0dssBQ5XSfnRTJ53UMdTUw/results.json"
             target: assets/posts.json
+        - name: check for changes
+          run: git status
+        - name: stage changed files
+          run: git add .
+        - name: commit changed files
+          run: git commit -m "Auto updating TODO.txt"
+        - name: fetch from master
+          run: git fetch origin master
+        - name: push code to master
+          run: git push origin HEAD:master
