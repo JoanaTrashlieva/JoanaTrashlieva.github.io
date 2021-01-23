@@ -17,11 +17,12 @@ on:
         # Input has to be provided for the workflow to run
         required: true
 
-#All jobs the action makes
+# All jobs the action makes
 jobs:
   getJson:
     runs-on: ubuntu-latest
     steps:
+      
       #Get contents from url and write then to file in repo (WOKRING)
         - uses: suisei-cn/actions-download-file@v1
           id: jsonContent
@@ -29,12 +30,8 @@ jobs:
           with:
             url: "https://cache1.phantombooster.com/plBOJLwVHsA/0dssBQ5XSfnRTJ53UMdTUw/results.json"
             target: assets/posts.json
-        
-        # Commit changes to repo (FAIL)
-#         - name: Check for changes and commit
-#           run: |
-#             git status
-#             git add .
-#             git commit -m "Auto updating posts.json"
-#             git fetch origin master
-#             git push origin HEAD:master
+
+      # Commit chnages to repo
+        - uses: stefanzweifel/git-auto-commit-action@v4
+          with:
+            commit_message: Auto commit posts.json file
