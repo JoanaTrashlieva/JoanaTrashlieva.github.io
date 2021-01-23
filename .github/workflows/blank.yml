@@ -1,6 +1,0 @@
-uses: suisei-cn/actions-download-file@v1
-  id: scrapperRes
-  name: instagramHashtagScraperResults
-  with:
-    url: "https://cache1.phantombooster.com/plBOJLwVHsA/0dssBQ5XSfnRTJ53UMdTUw/results.json"
-    target: assets/
