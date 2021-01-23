@@ -6,6 +6,7 @@ So I decided to give GitHub Pages a go.
 # Current state
 As of 18/12/2020:
 
-* still working on initial setup of the repo - locally and on the server
+* repo set up
+* project live @ joanatrashlieva.github.io
 * decided on a them to use - <code>jekyll-theme-minimal</code>
-* write actual content
+* write actual content - working on Insta API
