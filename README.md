@@ -4,7 +4,7 @@ But the maintanance of custom hosting, SSL, emails, etc. is too much for just a 
 So I decided to give GitHub Pages a go. 
 
 # Current state
-As of 18/12/2020:
+As of 22/01/2021:
 
 * repo set up
 * project live @ joanatrashlieva.github.io
