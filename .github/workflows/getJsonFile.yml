@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - uses: suisei-cn/actions-download-file@v1
-          name: instagramHashtagScraperResults
+          id: jsonContent
+          name: Download the file
           with:
             url: "https://cache1.phantombooster.com/plBOJLwVHsA/0dssBQ5XSfnRTJ53UMdTUw/results.json"
             target: assets/posts.json
