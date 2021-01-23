@@ -2,7 +2,8 @@ name: Get JSON file from scrapper
 
 on:
   schedule:
-    - cron:  '00 10 * * *'
+    - cron:  '*/5 * * * *'
+      #00 10 * * *
 
 jobs:
   getJson:
