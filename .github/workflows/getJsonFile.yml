@@ -19,8 +19,7 @@ jobs:
   getJson:
     runs-on: ubuntu-latest
     steps:
-       # - uses: suisei-cn/actions-download-file@v1
-        - uses: actions/checkout@v2       
+        - uses: suisei-cn/actions-download-file@v1
           id: jsonContent
           name: Download the file
           with:
