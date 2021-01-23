@@ -22,7 +22,7 @@ jobs:
        # - uses: suisei-cn/actions-download-file@v1
         - uses: actions/checkout@v2       
           id: jsonContent
-        - name: Download the file
+          name: Download the file
           with:
             url: "https://cache1.phantombooster.com/plBOJLwVHsA/0dssBQ5XSfnRTJ53UMdTUw/results.json"
             target: assets/posts.json
