@@ -33,9 +33,13 @@ jobs:
 
       # Check contents of posts.json file
         - uses: pCYSl5EDgo/cat@master
-          id: checkFile
+          id: hello
           with:
             path: assets/posts.json
+
+        - run: echo $TEXT
+          env:
+            TEXT: ${{ steps.hello.outputs.text }}
       
       # Commit chnages to repo
         - name: Git Auto Commit
