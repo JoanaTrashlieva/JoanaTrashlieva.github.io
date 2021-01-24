@@ -32,14 +32,13 @@ jobs:
             target: assets/posts.json
 
       # Check contents of posts.json file
-        - uses: pCYSl5EDgo/cat@master
-          id: hello
+        - name: Read package.json
+          id: posts
+          uses: juliangruber/read-file-action@v1
           with:
             path: assets/posts.json
-
-        - run: echo $TEXT
-          env:
-            TEXT: ${{ steps.hello.outputs.text }}
+        - name: Echo posts.json
+          run: echo ${{ steps.posts.outputs.content }}
       
       # Commit chnages to repo
         - name: Git Auto Commit
