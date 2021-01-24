@@ -32,7 +32,7 @@ jobs:
             target: assets/posts.json
 
         - name: Display structure of downloaded files
-          run: ls -R
+          run: ls -al
       # Check contents of posts.json file
         - name: Read package.json
           id: package
