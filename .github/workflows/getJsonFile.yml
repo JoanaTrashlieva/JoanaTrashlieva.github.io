@@ -33,13 +33,13 @@ jobs:
 
       # Check contents of posts.json file
         - name: Read package.json
-          id: posts
+          id: package
           uses: juliangruber/read-file-action@v1
           with:
-            path: assets/posts.json
+            path: /assets/posts.json
 
-        - name: Echo posts.json
-          run: echo ${{ steps.posts.outputs.content }}
+        - name: Echo package.json
+          run: echo ${{ steps.package.outputs.content }}
       
       # Commit chnages to repo
         - name: Git Auto Commit
