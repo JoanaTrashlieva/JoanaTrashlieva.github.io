@@ -31,6 +31,12 @@ jobs:
             url: "https://cache1.phantombooster.com/plBOJLwVHsA/0dssBQ5XSfnRTJ53UMdTUw/results.json"
             target: assets/posts.json
 
+      # Check contents of posts.json file
+        - uses: pCYSl5EDgo/cat@master
+          id: checkFile
+          with:
+            path: assets/posts.json
+      
       # Commit chnages to repo
         - name: Git Auto Commit
           uses: stefanzweifel/git-auto-commit-action@v4.8.0
