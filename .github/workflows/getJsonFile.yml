@@ -31,8 +31,6 @@ jobs:
             url: "https://cache1.phantombooster.com/plBOJLwVHsA/0dssBQ5XSfnRTJ53UMdTUw/results.json"
             target: assets/posts.json
 
-        - name: Display structure of downloaded files
-          run: ls -al
       # Check contents of posts.json file
         - name: Read package.json
           id: package
@@ -40,8 +38,8 @@ jobs:
           with:
             path: assets/posts.json
 
-        - name: Echo package.json
-          run: echo ${{ steps.package.outputs.content }}
+#         - name: Echo package.json
+#           run: echo ${{ steps.package.outputs.content }}
           
        
       
