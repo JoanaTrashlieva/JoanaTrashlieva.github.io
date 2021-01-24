@@ -22,6 +22,8 @@ jobs:
   getJson:
     runs-on: ubuntu-latest
     steps:
+        - name: WhoamI
+          run: whoami
 
       #Get contents from url and write then to file in repo (WOKRING)
         - uses: suisei-cn/actions-download-file@v1
