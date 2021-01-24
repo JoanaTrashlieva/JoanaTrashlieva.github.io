@@ -38,10 +38,9 @@ jobs:
           id: package
           uses: juliangruber/read-file-action@v1
           with:
-            path: assets/posts.json
-
-#         - name: Echo package.json
-#           run: echo ${{ steps.package.outputs.content }}
+            path: ./assets/posts.json
+        - name: Echo posts.json
+          run: echo ${{ steps.package.outputs.content }}
           
        
       
