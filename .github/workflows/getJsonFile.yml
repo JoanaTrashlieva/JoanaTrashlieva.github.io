@@ -29,7 +29,7 @@ jobs:
           name: Download the file
           with:
             url: "https://cache1.phantombooster.com/plBOJLwVHsA/0dssBQ5XSfnRTJ53UMdTUw/results.json"
-            target: /assets/posts.json
+            target: ./assets/posts.json
 
       # Check contents of posts.json file
         - name: Read package.json
