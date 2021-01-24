@@ -22,8 +22,9 @@ jobs:
   getJson:
     runs-on: ubuntu-latest
     steps:
-        - name: path
-          run: echo pwd
+        - name: Display the path
+          run: echo $PATH
+          shell: bash
       
       #Get contents from url and write then to file in repo (WOKRING)
         - uses: suisei-cn/actions-download-file@v1
