@@ -40,6 +40,9 @@ jobs:
 
         - name: Echo package.json
           run: echo ${{ steps.package.outputs.content }}
+          
+        - name: Display structure of downloaded files
+          run: ls -R
       
       # Commit chnages to repo
         - name: Git Auto Commit
