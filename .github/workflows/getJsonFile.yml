@@ -22,24 +22,22 @@ jobs:
   getJson:
     runs-on: ubuntu-latest
     steps:
-        - name: Display the path
-          run: echo $PATH
-          shell: bash
-      
+
       #Get contents from url and write then to file in repo (WOKRING)
         - uses: suisei-cn/actions-download-file@v1
           id: jsonContent
           name: Download the file
           with:
             url: "https://cache1.phantombooster.com/plBOJLwVHsA/0dssBQ5XSfnRTJ53UMdTUw/results.json"
-            target: ./assets/posts.json
+            target: assets/posts.json
 
       # Check contents of posts.json file
         - name: Read package.json
           id: posts
           uses: juliangruber/read-file-action@v1
           with:
-            path: ../assets/posts.json
+            path: assets/posts.json
+
         - name: Echo posts.json
           run: echo ${{ steps.posts.outputs.content }}
       
