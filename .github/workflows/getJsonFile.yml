@@ -30,20 +30,9 @@ jobs:
           with:
             url: "https://cache1.phantombooster.com/plBOJLwVHsA/0dssBQ5XSfnRTJ53UMdTUw/results.json"
             target: assets/posts.json
-            
-      # Check contents of posts.json file
-        - name: Read package.json
-          id: package
-          uses: juliangruber/read-file-action@v1
-          with:
-            path: /
-
-      # Output contents of file read in previous step
-        - name: Echo posts.json
-          run: echo ${{ steps.package.outputs.content }}
-          
-       
-      
+              
       # Commit chnages to repo
         - name: Git Auto Commit
           uses: stefanzweifel/git-auto-commit-action@v4.8.0
+          with:
+            commit_message: Auto commit instagram scrapper json file
