@@ -4,6 +4,9 @@ But the maintanance of custom hosting, SSL, emails, etc. is too much for just a 
 So I decided to give GitHub Pages a go. 
 
 # Current state
+
+![Get JSON file from scrapper](https://github.com/JoanaTrashlieva/JoanaTrashlieva.github.io/workflows/Get%20JSON%20file%20from%20scrapper/badge.svg)
+
 As of 22/01/2021:
 
 * repo set up
