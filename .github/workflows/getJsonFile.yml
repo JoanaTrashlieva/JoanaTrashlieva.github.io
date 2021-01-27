@@ -6,16 +6,6 @@ on:
    - cron:  '*/5 * * * *'
 #       #00 10 * * *
 
-# Manually trigger the action 
-on:
-  workflow_dispatch:
-    inputs:
-      name:
-        description: 'Contributor'
-        # Default value if no value is explicitly provided
-        default: 'name'
-        # Input has to be provided for the workflow to run
-        required: true
 
 # All jobs the action makes
 jobs:
