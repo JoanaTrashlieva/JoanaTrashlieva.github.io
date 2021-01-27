@@ -23,6 +23,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
+        - uses: actions/checkout@v2
+          with:
+            ref: ${{ github.head_ref }}
+
       #Get contents from url and write then to file in repo (WOKRING)
         - uses: suisei-cn/actions-download-file@v1
           id: jsonContent
