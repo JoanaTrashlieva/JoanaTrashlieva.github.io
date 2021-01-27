@@ -22,8 +22,6 @@ jobs:
   getJson:
     runs-on: ubuntu-latest
     steps:
-        - name: WhoamI
-          run: whoami
 
       #Get contents from url and write then to file in repo (WOKRING)
         - uses: suisei-cn/actions-download-file@v1
@@ -31,15 +29,16 @@ jobs:
           name: Download the file
           with:
             url: "https://cache1.phantombooster.com/plBOJLwVHsA/0dssBQ5XSfnRTJ53UMdTUw/results.json"
-            target: assets/
+            target: assets/posts.json
             
       # Check contents of posts.json file
         - name: Read package.json
           id: package
           uses: juliangruber/read-file-action@v1
           with:
-            path: assets/posts.json
+            path: /index.md
 
+      # Output contents of file read in previous step
         - name: Echo posts.json
           run: echo ${{ steps.package.outputs.content }}
           
