@@ -7,6 +7,10 @@ So I decided to give GitHub Pages a go.
 
 ![Get JSON file from scrapper](https://github.com/JoanaTrashlieva/JoanaTrashlieva.github.io/workflows/Get%20JSON%20file%20from%20scrapper/badge.svg)
 
+Note: 
+  * Phantom Buster container pod runs at 20:42
+  * GitHub Actions workflow runs at 20:45
+  
 As of 22/01/2021:
 
 * repo set up
