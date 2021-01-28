@@ -1,4 +1,7 @@
 # Personal website using GitHub Pages and Jekyll themes
+
+[joanatrashlieva.github.io](https://joanatrashlieva.github.io)
+
 Previously, I have written my website in CMSs such as Wordpress or even in Magento 2 for a short time. 
 But the maintanance of custom hosting, SSL, emails, etc. is too much for just a hobby. 
 So I decided to give GitHub Pages a go. 
@@ -20,7 +23,7 @@ That automation launches daily @ 20:42 and creates a json file that contains all
 
 # Setting up a GH Actions workflow
 
-Now having that json file (luckily, the url doesn't change on each run) I set up a workflow in GitHub to write the contents of that file in the repository and commit it (and send me a Slack notification). That would run everyday at 20:45 (3 mins after the container from Phantom Buster).
+Now having that json file (luckily, the url doesn't change on each run) I set up a workflow in GitHub to write the contents of that file in the repository and commit it (and send me a Slack notification). That would run everyday @ 20:45 (3 mins after the container from Phantom Buster).
 
 ```
 name: Get JSON file from scrapper
