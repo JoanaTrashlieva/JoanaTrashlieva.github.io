@@ -3,9 +3,7 @@ name: Get JSON file from scrapper
 # Scheduler to run action ones a day @ 10am (currently every 5 mins for testing)
 on:
   schedule:
-   - cron:  '*/5 * * * *'
-#       #00 10 * * *
-
+   - cron:  '45 20 * * *'
 
 # All jobs the action makes
 jobs:
