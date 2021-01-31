@@ -40,7 +40,7 @@ My friend took up photography as a hobbby and I like helping him with some edits
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src='assets/js/json.js'></script>
 
-<div class='instagram-carousel'><ul class='images-list'></ul></div>
+<div class='instagram-carousel'></div>
 
 ### Tech related articles
 
