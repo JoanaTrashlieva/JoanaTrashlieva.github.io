@@ -14,7 +14,7 @@ Following this as a guiding principle, after high-school I moved to the UK to
 study Computer Science in university. I will soon be relocating to the Netherlands
 to pursue a masters degree. 
 
-In my free time I like playing basketball 🏀  and building robots! 🤖
+In my free time I like playing basketball 🏀  and building robots! 👾🤖
 
 * * *
 
@@ -27,3 +27,21 @@ In my free time I like playing basketball 🏀  and building robots! 🤖
 #### Personal
 
 | [![Ardi](https://joanatrashlieva.github.io/assets/work/arduino-car.jpg)](https://github.com/JoanaTrashlieva/robot-car)| |
+
+## Hobbies
+
+### Photo editing
+ 
+My friend took up photography as a hobbby and I like helping him with some edits  👀  
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="assets/results.json"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src='assets/js/json.js'></script>
+
+<div class='instagram-carousel'><ul class='images-list'></ul></div>
+
+### Tech related articles
+
+In my spare time I enjoy reading about new and cool stuff hapenning in the tech world. Here are some of my favourites...
