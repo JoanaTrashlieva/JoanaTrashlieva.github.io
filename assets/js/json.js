@@ -1,6 +1,7 @@
 $.getJSON("assets/results.json", function(json) {
       for (var o = 0; o < json.length; o++) {
-        $('.images-list').append('<li><img src=' + json[o].imgUrl + '</img></li>');
+        console.log(json[o].imgUrl);
+        $('.images-list').append('<li><img src=' + json[o].imgUrl + '></></li>');
       }
 });
 
