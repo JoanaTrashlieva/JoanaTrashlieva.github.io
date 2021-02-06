@@ -2,17 +2,8 @@ name: Get JSON file from scrapper
 
 # Scheduler to run action ones a day @ 10am (currently every 5 mins for testing)
 on:
-#   schedule:
-#    - cron:  '45 20 * * *'
-
-  workflow_dispatch:
-    inputs:
-      logLevel:
-        description: 'Log level'     
-        required: true
-        default: 'warning'
-      tags:
-        description: 'Test scenario tags'
+  schedule:
+   - cron:  '45 20 * * *'
 
 # All jobs the action makes
 jobs:
