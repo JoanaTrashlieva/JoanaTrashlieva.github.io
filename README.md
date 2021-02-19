@@ -9,7 +9,7 @@ So I decided to give GitHub Pages a go.
 # Current state
 
 ![Get JSON file from scrapper](https://github.com/JoanaTrashlieva/JoanaTrashlieva.github.io/workflows/Get%20JSON%20file%20from%20scrapper/badge.svg)
-![Slack Notification on JSON scrapper](https://github.com/JoanaTrashlieva/JoanaTrashlieva.github.io/workflows/Slack%20Notification%20on%20JSON%20scrapper/badge.svg)
+[![Slack Notification Demo](https://github.com/JoanaTrashlieva/JoanaTrashlieva.github.io/actions/workflows/slack-notify.yml/badge.svg)](https://github.com/JoanaTrashlieva/JoanaTrashlieva.github.io/actions/workflows/slack-notify.yml)
 
 ![Site screenshot](assets/site-overview.png)
 
