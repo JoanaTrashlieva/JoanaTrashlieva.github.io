@@ -7,6 +7,11 @@ $.getJSON("assets/results.json", function(json) {
 $(document).ready(function() {
 	$('.instagram-carousel').magnificPopup({
 		type:'image',
-		delegate: 'img'
+		delegate: 'img',
+		callbacks: {
+			elementParse: function(item) {
+			  console.log(item); 
+			}
+		  }
 	});
 });
