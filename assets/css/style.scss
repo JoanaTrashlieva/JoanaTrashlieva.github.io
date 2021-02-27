@@ -77,13 +77,20 @@ body{
         display: none;
     }
 
-    .instagram-carousel{
-        margin: 30px;
+    .instagram-carousel {
+        line-height: 2;
+        column-count: 2;
+        column-gap: 10px;  
     }
+      
+    .instagram-carousel img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
 
-    footer {
-        p { 
-            display: none;
-        }
+footer{
+    p{
+        display: none;
     }
 }

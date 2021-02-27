@@ -31,17 +31,13 @@ In my free time I like playing basketball 🏀  and building robots!  🤖
 ## Hobbies
 
 ### Photo editing
- 
 My friend took up photography as a hobbby and I like helping him with some edits  👀  
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="assets/results.json"></script>
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src='assets/js/json.js'></script>
 
 <div class='instagram-carousel'></div>
 
 ### Tech related articles
-
 In my spare time I enjoy reading about new and cool stuff hapenning in the tech world. Here are some of my favourites...
