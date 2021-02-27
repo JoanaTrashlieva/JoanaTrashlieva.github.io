@@ -3,3 +3,10 @@ $.getJSON("assets/results.json", function(json) {
     $('.instagram-carousel').append('<img src=' + json[o].imgUrl + '></>');
   }
 });
+
+$(document).ready(function() {
+	$('.instagram-carousel').magnificPopup({
+		type:'image',
+		delegate: 'img'
+	});
+});

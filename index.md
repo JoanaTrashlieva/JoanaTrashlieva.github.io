@@ -35,6 +35,11 @@ My friend took up photography as a hobbby and I like helping him with some edits
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="assets/results.json"></script>
+
+<link rel="stylesheet" href="assets/css/magnific-popup.css">
+<script src="assets/js/magnific-popup.js"></script>
+
+
 <script src='assets/js/json.js'></script>
 
 <div class='instagram-carousel'></div>
