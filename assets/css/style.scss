@@ -81,11 +81,16 @@ body{
         line-height: 2;
         column-count: 2;
         column-gap: 10px;  
-    }
-      
-    .instagram-carousel img {
-        width: 100% !important;
-        height: auto !important;
+    
+        img {
+            width: 100% !important;
+            height: auto !important;
+            border-radius: 10px;
+        }
+
+        img:hover{
+            cursor: zoom-in;
+        }
     }
 }
 
