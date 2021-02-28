@@ -80,7 +80,12 @@ body{
     .instagram-carousel {
         line-height: 2;
         column-count: 2;
-        column-gap: 10px;  
+        column-gap: 10px;
+        margin-bottom: 25px;
+        
+        a{  
+            display: block;
+        }
     
         img {
             width: 100% !important;
