@@ -9,4 +9,9 @@ $(document).ready(function() {
 		delegate: 'a',
 		type:'image'
 	});
+
+	$('#articles').DataTable({
+		"pageLength": 5
+	});
 });
+

@@ -8,6 +8,8 @@ body{
     font-family: Comfortaa, --apple-system, sans-serif;
 
     header {
+        padding: 0;
+
         h1{
             text-align: center;
         }
@@ -18,6 +20,9 @@ body{
 
         img{
             border-radius: 50%;
+            left: 50%;
+            transform: translateX(-50%);
+            position: relative;
         }
         
         p{
@@ -95,6 +100,22 @@ body{
 
         img:hover{
             cursor: zoom-in;
+        }
+    }
+
+    .sources{
+        #articles_length{
+            display: none;
+        }
+
+        #articles_filter{
+            display: none;
+        }
+
+        #articles{
+            th{
+                display: none;
+            }
         }
     }
 }

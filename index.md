@@ -36,13 +36,31 @@ My friend took up photography as a hobbby and I like helping him with some edits
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="assets/results.json"></script>
 
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.js"></script>
+
 <link rel="stylesheet" href="assets/css/magnific-popup.css">
 <script src="assets/js/magnific-popup.js"></script>
-
 
 <script src='assets/js/json.js'></script>
 
 <div class='instagram-carousel'></div>
 
-### Tech related articles
+### Tech related articles, books & videos
 In my spare time I enjoy reading about new and cool stuff hapenning in the tech world. Here are some of my favourites...
+
+<!-- article, book & video -->
+<div class='sources'>
+    <table id="articles" class="display" >
+        <thead>
+            <tr>
+                <th>Test</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="(https://medium.com/@pkontogiannis/software-engineers-playing-basketball-fa50e460a800">A software engineer is a basketball player… </a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
