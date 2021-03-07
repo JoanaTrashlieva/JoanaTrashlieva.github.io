@@ -59,7 +59,10 @@ In my spare time I enjoy reading about new and cool stuff hapenning in the tech 
         </thead>
         <tbody>
             <tr>
-                <td><a href="(https://medium.com/@pkontogiannis/software-engineers-playing-basketball-fa50e460a800">A software engineer is a basketball player… </a></td>
+                <td><a href="https://medium.com/@pkontogiannis/software-engineers-playing-basketball-fa50e460a800">A software engineer is a basketball player… Part 1</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.humanetech.com/podcast">Your Undivided Attention</a></td>
             </tr>
         </tbody>
     </table>
