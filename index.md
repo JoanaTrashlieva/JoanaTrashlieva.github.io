@@ -36,6 +36,14 @@ In my free time I like playing basketball 🏀  and building robots!  🤖
 
 <!-- Tab content -->
 <div id="Tech" class="tabcontent">
+    <h3> Projects </h3>
+    <table>
+        <tr class='multiple-items'>
+            <td><a href='https://www.ashleyperrin.co.uk'><img src='https://joanatrashlieva.github.io/assets/work/ashleyperrin.co.uk.png'/></a></td>
+            <td><a href='https://www.ape-ltd.co.uk'><img src='https://joanatrashlieva.github.io/assets/work/ape-ltd.co.uk.png'/></a></td>
+            <td><a href='https://github.com/JoanaTrashlieva/robot-car'><img src='https://joanatrashlieva.github.io/assets/work/arduino-car.jpg'/></a></td>
+        </tr>
+    </table>
     <h3> Conferences and events </h3>
     <p> Some of the perks that come with the job, apart from the free coffee and food in the office, are the different events and conferences I get to attend and sometimes present on different topics. </p>
     <ul>
@@ -47,14 +55,6 @@ In my free time I like playing basketball 🏀  and building robots!  🤖
         <li><a href='https://targetjobs.co.uk/events/its-not-just-for-the-boys'>It's not just for the boys, London 2017 & 2020</a><i> (attendee)</i></li>
         <li><a href='https://bcswomenlovelace.bcs.org/?page_id=286'>Lovelace Colloqium, virtual 2020</a><i> (presenter)</i></li>
     </ul>
-    <h3> Projects </h3>
-    <table>
-        <tr class='multiple-items'>
-            <td><a href='https://www.ashleyperrin.co.uk'><img src='https://joanatrashlieva.github.io/assets/work/ashleyperrin.co.uk.png'/></a></td>
-            <td><a href='https://www.ape-ltd.co.uk'><img src='https://joanatrashlieva.github.io/assets/work/ape-ltd.co.uk.png'/></a></td>
-            <td><a href='https://github.com/JoanaTrashlieva/robot-car'><img src='https://joanatrashlieva.github.io/assets/work/arduino-car.jpg'/></a></td>
-        </tr>
-    </table>
     <h3> Photo editing </h3>
     <p>My friend took up photography as a hobbby and I like helping him with some edits  👀  </p>
     <div class='instagram-carousel'></div>
