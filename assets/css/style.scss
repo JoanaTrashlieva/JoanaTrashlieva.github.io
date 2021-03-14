@@ -10,7 +10,7 @@ body{
     header {
         padding: 0;
 
-        h1{
+        h1{    
             text-align: center;
         }
 
@@ -59,6 +59,38 @@ body{
 
     blockquote{
         border-left: 1px solid #ef4037;
+    }
+
+    .tab {
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .tab button {
+        background: none;
+        font-family: 'Comfortaa';
+        color: #2e81bb;
+        text-decoration: underline;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 20px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+    .tab button.active {
+        color: #ef4037;
+    }
+
+    .tabcontent {
+        padding: 6px 12px;
+        border-top: none;
+        display: none;
+    }
+
+    #Tech {
+        display: block;
     }
 
     td{
@@ -116,6 +148,19 @@ body{
             th{
                 display: none;
             }
+        }
+    }
+
+    #Basketball {
+        .bball-photos{
+            line-height: 2;
+            column-count: 2;
+            column-gap: 10px;
+            margin-bottom: 25px;
+        }
+
+        .bball-photos img{ 
+            border-radius: 10px;
         }
     }
 }
