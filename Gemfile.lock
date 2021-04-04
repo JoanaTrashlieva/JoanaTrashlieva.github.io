@@ -196,7 +196,7 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    kramdown (2.3.0)
+    kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.3.1)
@@ -269,6 +269,7 @@ DEPENDENCIES
   jekyll (~> 3.9.0)
   jekyll-feed (~> 0.6)
   jekyll-theme-minimal
+  kramdown (>= 2.3.1)
   kramdown-parser-gfm
   nokogiri (>= 1.11.0.rc4)
   tzinfo (~> 1.2)
